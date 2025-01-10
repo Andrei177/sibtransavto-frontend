@@ -377,9 +377,9 @@ a {
   }
   .slide-desc{
     font-size: 15px;
-    width: 65%;
+    width: 80%;
     left: 5%;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
   .swiper-slide{
     overflow: hidden;
