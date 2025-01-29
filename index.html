@@ -10,14 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link href="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link
-      rel="icon"
-      href="/logo.svg"
-      type="image/svg+xml"
+      href="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.css"
+      rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
     <title>СИБТРАНСАВТО</title>
     <meta
       name="description"
@@ -38,12 +37,57 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sibtransavto-omsk.ru" />
-    <meta property="og:image" content="https://yandex.ru/images/search?pos=12&from=tabbar&img_url=https%3A%2F%2Falteco.pro%2Fassets%2Ftemplates%2Fimg%2Finland_003.jpg&text=сибтрансавто+фура&rpt=simage&lr=20031">
+    <meta
+      property="og:image"
+      content="https://yandex.ru/images/search?pos=12&from=tabbar&img_url=https%3A%2F%2Falteco.pro%2Fassets%2Ftemplates%2Fimg%2Finland_003.jpg&text=сибтрансавто+фура&rpt=simage&lr=20031"
+    />
     <meta name="robots" content="index, follow" />
   </head>
   <body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(99538543, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/99538543"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
     <div class="side-link">
-      <a href="#form">Рассчитать <img src="/side-strelka.svg" alt="->"></a>
+      <a href="#form">Рассчитать <img src="/side-strelka.svg" alt="->" /></a>
     </div>
     <div class="wrapper">
       <div data-jarallax data-speed="0.45" class="start-back-img"></div>
@@ -51,7 +95,9 @@
         <div class="side-menu__inner">
           <ul class="nav-list-items-side">
             <li class="nav-list__item">
-              <a class="nav-list__item-link border" href="/contacts">КОНТАКТЫ</a>
+              <a class="nav-list__item-link border" href="/contacts"
+                >КОНТАКТЫ</a
+              >
             </li>
             <li class="nav-list__item">
               <a class="nav-list__item-link" href="/transportation"
@@ -59,7 +105,9 @@
               >
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__item-link" href="/technics">ПЕРЕЧЕНЬ ТЕХНИКИ</a>
+              <a class="nav-list__item-link" href="/technics"
+                >ПЕРЕЧЕНЬ ТЕХНИКИ</a
+              >
             </li>
           </ul>
         </div>
@@ -70,9 +118,7 @@
             <div class="logo-img">
               <img src="/logo.svg" alt="сибтрансавто" />
             </div>
-            <a href="/"
-              ><div class="logo-title">ООО «СИБТРАНСАВТО»</div></a
-            >
+            <a href="/"><div class="logo-title">ООО «СИБТРАНСАВТО»</div></a>
           </div>
           <div class="nav-list">
             <ul class="nav-list-items">
@@ -115,17 +161,17 @@
           </h3>
         </div>
         <a class="strelka" href="#txt">
-          <img class="strelka-img" src="/strelka.svg" alt="смотрите далее">
+          <img class="strelka-img" src="/strelka.svg" alt="смотрите далее" />
         </a>
       </div>
-      <div class="about-company container" id="txt"> 
+      <div class="about-company container" id="txt">
         <div class="about-company__text">
           <span class="company-name">СибТрансАвто</span> —
           <span class="dekstop"
             >компания, специализирующаяся на транспортировке</span
           ><span class="mobile">перевозка</span>
           <span class="important-word">крупногабаритных</span> и
-          <span class="important-word">тяжеловесных</span> 
+          <span class="important-word">тяжеловесных</span>
           грузов по России, странам СНГ и КНР, Мы обеспечиваем
           <span class="important-word">безопасность</span>,
           <span class="important-word">скорость</span> и
@@ -140,50 +186,29 @@
           <h2 class="title box hidden">Наши перевозки</h2>
         </div>
         <div class="transportation-desc box hidden">
-          <img
-            class="my-img"
-            src="/auto-1.jpg"
-            alt="фура"
-            loading="lazy"
-          />
+          <img class="my-img" src="/auto-1.jpg" alt="фура" loading="lazy" />
           <p class="desc-text">
             <span class="upper">
-              перевозка автокрана zoomlion (58
-              тонн) по маршруту: г.артем (приморский край) — г. санкт-петербург расстояние: 9753 км.
+              перевозка автокрана zoomlion (58 тонн) по маршруту: г.артем
+              (приморский край) — г. санкт-петербург расстояние: 9753 км.
             </span>
           </p>
         </div>
         <div class="transportation-desc box hidden">
           <p class="desc-text">
             <span class="upper">
-              Перевозка гусеничного экскаватора XCMg (50
-              тонн) по маршруту:
-              пгт.Забайкальск —
-              г.Мариуполь расстояние: 7260
-              км.
+              Перевозка гусеничного экскаватора XCMg (50 тонн) по маршруту:
+              пгт.Забайкальск — г.Мариуполь расстояние: 7260 км.
             </span>
           </p>
-          <img
-            class="my-img"
-            src="/auto-2.jpg"
-            alt="фура"
-            loading="lazy"
-          />
+          <img class="my-img" src="/auto-2.jpg" alt="фура" loading="lazy" />
         </div>
         <div class="transportation-desc box hidden">
-          <img
-            class="my-img"
-            src="/auto-3.jpg"
-            alt="фура"
-            loading="lazy"
-          />
+          <img class="my-img" src="/auto-3.jpg" alt="фура" loading="lazy" />
           <p class="desc-text">
             <span class="upper">
-              Перевозка гусеничного крана liebherr (65
-              тонн) по маршруту:
-              г.Омск —
-              п.циолковский
-              (Космодром Восточный, Амурская область)
+              Перевозка гусеничного крана liebherr (65 тонн) по маршруту: г.Омск
+              — п.циолковский (Космодром Восточный, Амурская область)
               расстояние: 4917 км.
             </span>
           </p>
@@ -252,19 +277,29 @@
           <h2 class="title box hidden">Этапы работы с нами</h2>
         </div>
         <div class="main-steps">
-          <img src="/mobile.svg" alt="сибтрансавто общение" loading="lazy" class=" box hidden"/>
-          <img src="/cost.svg" alt="сибтрансавто стоимость" loading="lazy" class=" box hidden"/>
+          <img
+            src="/mobile.svg"
+            alt="сибтрансавто общение"
+            loading="lazy"
+            class="box hidden"
+          />
+          <img
+            src="/cost.svg"
+            alt="сибтрансавто стоимость"
+            loading="lazy"
+            class="box hidden"
+          />
           <img
             src="/agreement.svg"
             alt="сибтрансавто договор"
             loading="lazy"
-            class=" box hidden"
+            class="box hidden"
           />
           <img
             src="/delivery.svg"
             alt="сибтрансавто доставка"
             loading="lazy"
-            class=" box hidden"
+            class="box hidden"
           />
           <div class="number-item box hidden">
             <div class="number"><p>1</p></div>
@@ -316,7 +351,11 @@
         </div>
         <div class="our-partners-images container">
           <div>
-            <img class="partner-img" src="/partners.png" alt="сибтрансавто партнёры" />
+            <img
+              class="partner-img"
+              src="/partners.png"
+              alt="сибтрансавто партнёры"
+            />
           </div>
         </div>
       </div>
@@ -324,14 +363,18 @@
         <h4 class="form-title box hidden">Остались вопросы?</h4>
         <h5 class="form-subtitle">Оставьте заявку и мы с вами свяжемся!</h5>
         <form class="form">
-          <label for="firstName" class="visually-hidden">Имя пользователя:</label>
+          <label for="firstName" class="visually-hidden"
+            >Имя пользователя:</label
+          >
           <input
             type="text"
             placeholder="Ваше имя"
             name="firstName"
             id="firstName"
           />
-          <label for="phoneNumber" class="visually-hidden">Номер телефона:</label>
+          <label for="phoneNumber" class="visually-hidden"
+            >Номер телефона:</label
+          >
           <input
             type="tel"
             placeholder="Ваш телефон"
@@ -344,7 +387,9 @@
           <label for="to" class="visually-hidden">Куда:</label>
           <input type="text" placeholder="Куда" name="to" id="to" />
           <p class="form-inp-title">Наименование груза</p>
-          <label for="titleCargo" class="visually-hidden">Наименование груза:</label>
+          <label for="titleCargo" class="visually-hidden"
+            >Наименование груза:</label
+          >
           <input
             type="text"
             placeholder="Наименование груза"
@@ -417,7 +462,9 @@
             </label>
             <span class="policy">
               Я согласен с
-              <a class="down-line" href="/policy" target="_blank">политикой конфиденциальности</a>
+              <a class="down-line" href="/policy" target="_blank"
+                >политикой конфиденциальности</a
+              >
             </span>
           </div>
           <div class="message"></div>
