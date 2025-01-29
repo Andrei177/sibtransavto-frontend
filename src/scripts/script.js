@@ -126,8 +126,7 @@ function updateRangeValue(input) {
   
   document.addEventListener("DOMContentLoaded", function() {
     const boxes = document.querySelectorAll('.box');
-    console.log(boxes);
-  
+
     // Создаём экземпляр IntersectionObserver
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {

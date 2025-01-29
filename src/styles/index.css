@@ -10,6 +10,32 @@ html{
 a {
   text-decoration: none;
 }
+.side-link{
+  position: fixed;
+  bottom: 30px;
+  left: 0px;
+  z-index: 1;
+  padding: 21px;
+  border-radius: 0px 10px 10px 0px;
+  background: rgba(244, 244, 244, 0.50);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.side-link a{
+  display: flex;
+  align-items: center;
+  background-color: rgba(56, 91, 227, 0.90);
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 0px 7px 0px 15.5px;
+  border-radius: 60px;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -121,18 +147,19 @@ a {
   transition: opacity 0.3s;
 } */
 .strelka{
+  text-align: center;
   position: absolute;
-  cursor: pointer;
   width: 100%;
   height: 70px;
-  animation: anim-strelka 2s infinite ease-in-out; 
-  transition: opacity 0.3s;
 }
 .strelka-img{
-  width: 100%;
+  /* width: 100%; */
+  animation: anim-strelka 2s infinite ease-in-out; 
+  transition: opacity 0.3s;
   height: 100%;
+  cursor: pointer;
 }
-.strelka:hover {
+.strelka-img:hover {
   opacity: 0.7;
 }
 @keyframes anim-strelka {
@@ -1274,6 +1301,20 @@ input[type="tel"]:focus {
 
   .form-subtitle {
     font-size: 18px;
+  }
+}
+@media (max-width: 550px) {
+  .side-link{
+    bottom: 20px;
+    padding: 10px;
+  }
+  .side-link img{
+    width: 20px;
+    height: 20px;
+  }
+  .side-link a{
+    font-size: 12px;
+    padding: 8px 6px;
   }
 }
 @media (max-width: 540px) {
